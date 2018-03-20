@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
 
   s.name                  = 'ContentProviders'
   s.summary               = 'A collection of useful content providers used for accessing and modifying iOS applications data.'
-  s.version               = '1.1.0'
+  s.version               = '1.2.2'
 
   s.platform              = :ios
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.cocoapods_version     = '>= 1.4.0.beta.2'
   s.static_framework      = true

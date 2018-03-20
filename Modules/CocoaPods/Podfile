@@ -1,8 +1,10 @@
 # source 'https://github.com/roxiemobile/shared-cocoa-frameworks.ios.git'
 # source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 use_frameworks!
+
+TAG_SWIFTCOMMONS = '1.2.2'
 
 workspace '../RoxieMobile.ContentProviders/ContentProviders.xcworkspace'
 
@@ -12,7 +14,15 @@ target 'ContentProviders.SQLite' do
 
   # Dependencies
   pod 'CryptoSwift', '~> 0.8.0'
-  pod 'SwiftCommons/Concurrent', '~> 1.1.0'
-  pod 'SwiftCommons/Extensions', '~> 1.1.0'
+  pod 'SwiftCommonsConcurrent', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsDiagnostics', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsObjC', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsExtensions', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsLang', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsLogging', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsAbstractions', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsData', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommons', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
   pod 'SQLite.swift/SQLCipher', '~> 0.11.4'
+
 end

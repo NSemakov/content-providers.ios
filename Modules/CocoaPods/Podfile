@@ -13,7 +13,7 @@ target 'ContentProviders.SQLite' do
   project '../RoxieMobile.ContentProviders/Sources/SQLite/ContentProviders.SQLite.xcodeproj'
 
   # Dependencies
-  pod 'CryptoSwift', '~> 0.8.0'
+  pod 'CryptoSwift', '~> 0.8.3'
   pod 'SwiftCommonsConcurrent', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
   pod 'SwiftCommonsDiagnostics', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
   pod 'SwiftCommonsObjC', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true

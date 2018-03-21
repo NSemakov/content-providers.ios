@@ -53,7 +53,7 @@ PODS:
   - SwiftCommonsObjC (1.2.2)
 
 DEPENDENCIES:
-  - CryptoSwift (~> 0.8.0)
+  - CryptoSwift (~> 0.8.3)
   - SQLite.swift/SQLCipher (~> 0.11.4)
   - SwiftCommons (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.2`)
   - SwiftCommonsAbstractions (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.2`)
@@ -138,6 +138,6 @@ SPEC CHECKSUMS:
   SwiftCommonsLogging: 57fdcfe92052458fc88c0d7ae0212554d58450cf
   SwiftCommonsObjC: 966c6d2b5948b501e93ee251c5759c97416f05fa
 
-PODFILE CHECKSUM: a7f180c8a879c34ec976c5d9341b75c21daf205d
+PODFILE CHECKSUM: 858835a6987840a43233400d8163a0f6f1b8bd82
 
 COCOAPODS: 1.4.0

@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.name                  = 'ContentProvidersSQLite'
   s.summary               = 'A content provider used for accessing and modifying data in SQLite database.'
-  s.version               = '1.2.2'
+  s.version               = '1.2.4'
 
   s.platform              = :ios
   s.ios.deployment_target = '9.0'
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 # MARK: - Dependencies
 
   s.dependency 'CryptoSwift', '~> 0.8.3'
-  s.dependency 'SwiftCommons/Concurrent', '~> 1.2.2'
-  s.dependency 'SwiftCommons/Extensions', '~> 1.2.2'
+  s.dependency 'SwiftCommons/Concurrent', '~> 1.2.4'
+  s.dependency 'SwiftCommons/Extensions', '~> 1.2.4'
   s.dependency 'SQLite.swift/SQLCipher', '~> 0.11.4'
 end

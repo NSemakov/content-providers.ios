@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.name                  = 'ContentProvidersFileSystem'
   s.summary               = 'A content provider used for accessing and modifying physical files.'
-  s.version               = '1.2.2'
+  s.version               = '1.2.4'
 
   s.platform              = :ios
   s.ios.deployment_target = '9.0'
